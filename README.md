@@ -21,7 +21,10 @@ Target: Artix-7 FPGA
 Description
 
 An Arithmetic Logic Unit (ALU) is the fundamental computational block at the heart of every processor — it is where all arithmetic and logic decisions are made. This task involved the complete design, simulation, synthesis, and post-implementation analysis of an 8-bit ALU in Verilog HDL, targeting the Xilinx Artix-7 FPGA.
-The ALU accepts two 8-bit operands A[7:0] and B[7:0], a 3-bit operation select line Sel[2:0], and produces an 8-bit result Y[7:0].
+The ALU accepts two 8-bit operands A[7:0] and B[7:0], a 3-bit operation select line Sel[2:0], and produces an 8-bit result Y[7:0].Six operations are supported, covering both arithmetic and bitwise logic:
+
+<img width="367" height="169" alt="image" src="https://github.com/user-attachments/assets/4eac941e-cab6-4189-8f2e-18f90d405518" />
+
 The Verilog module was written using a case statement inside a combinational always block. A testbench was written to drive all six operation modes with operands A = 5 and B = 2, and the simulation waveforms were verified in the Vivado Behavioural Simulator. The design was then synthesised, implemented, and analysed for resource usage, timing, and power.
 
 Key Results
