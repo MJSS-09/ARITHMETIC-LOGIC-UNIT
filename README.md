@@ -35,4 +35,8 @@ Why Artix-7?
 
 The Artix-7 was selected for its ultra-low static power (~40 mW), cost-optimised positioning within the Xilinx 7-series, full Vivado IDE support, and more than sufficient LUT resources for this design. With only 17 LUTs consumed, the design leaves ample room for future expansion into a full RISC datapath.
 
+#OUTPUT
+
+<img width="1547" height="366" alt="Image" src="https://github.com/user-attachments/assets/0973c504-1bdc-4583-9f65-ad4122b01791" />
+
 
